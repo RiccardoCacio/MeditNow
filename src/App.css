@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(247, 247, 242);
+}
+
+nav {
+    color: rgb(41, 39, 36);
+    text-align: center;
+    background-color: #B0C4DE;
+    padding: 25px 0px;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    margin: 50px 0px;
+}
+
+@media only screen and (max-width: 960px) {
+    .topBox {
+        gap: 10px;
+    }
+}
+
+.textSun {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #f8cf3a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textRain {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #9bc1f3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+    .textSun,
+    .textRain {
+        font-size: 22px;
+    }
+}
+
+.btn {
+    max-height: 60px;
+    padding: 20px 50px;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.timeButtonSun {
+    background-color: #f7db78;
+    border: 2px solid #fec700;
+}
+
+
+.timeButtonSun:hover {
+    background-color: #fec700;
+}
+
+
+.timeButtonRain {
+    background-color: #d5e5f9;
+    border: 2px solid #bbd5f8;
+}
+
+.timeButtonRain:hover {
+    background-color: #bbd5f8;
+}
+
+
+.centralBox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sunOrRainBox {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttonSun {
+    border: none;
+    background-color: transparent;
+    width: none;
+}
+
+.sunOrRainSvg {
+    height: 53px;
+}
+
+.sunOrRainSvg:hover {
+    cursor: pointer;
+}
+
+
+
+.timerBoxRain {
+    height: 570px;
+    width: 570px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(../src/img/png/rainBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 960px) {
+    .timerBoxRain {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+.timerBoxSun {
+    height: 570px;
+    width: 570px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(../src/img/png/sunBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 960px) {
+    .timerBoxSun {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+.timer {
+    text-align: center;
+    margin-top: 45%;
+    font-size: 60px;
+    color: #2964b0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.noValueText {
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(246, 94, 94);
+    font-size: 20px;
+}
+
+.bottomBox {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+@media only screen and (max-width: 960px) {
+    .bottomBox {
+        gap: 10px;
+    }
+}
+
+.startButtonSun {
+    background-color: #fdd649;
+    border: 2px solid #f8c200;
+    padding-bottom: 6px;
+}
+
+.startButtonSun:hover {
+    background-color: #f8c200;
+}
+
+.startButtonRain {
+    background-color: #81aadf;
+    border: 2px solid #639eeb;
+    padding-bottom: 6px;
+}
+
+.startButtonRain:hover {
+    background-color: #639eeb;
+}
+
+
+.resetButton {
+    background-color: rgb(251, 104, 104);
+    border: 2px solid rgb(246, 94, 94);
+}
+
+.resetButton:hover {
+    background-color: rgb(246, 94, 94);
+}
+
+.playSvg {
+    position: relative;
+    bottom: 5px;
+    height: 30px;
+}
+
+.pauseSvg {
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #B0C4DE;
+    padding: 50px;
+    text-align: center;
+}
+
+.footerCopy {
+    margin-bottom: 10px;
+}
+
+.footerSvgBox {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footerSvg {
+    height: 40px;
+    margin-bottom: 10px;
+}
